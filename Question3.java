@@ -11,6 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int num = in.nextInt();
+    int square = num * num;
+    System.out.println(square); 
   }
 }
